@@ -1,5 +1,6 @@
 import { Instagram, Mail, Phone, MapPin } from "lucide-react";
-import izabelaLogo from "@/assets/izabela-logo.png";
+import izabelaLogo from "@/assets/izabela-logo-white.png";
+import dornelasLogo from "@/assets/dornelas-logo.png";
 import toctusLogo from "@/assets/toctus-logo.png";
 import brandLogo from "@/assets/brand-logo-1.png";
 
@@ -12,6 +13,7 @@ export const Footer = () => {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img src={izabelaLogo} alt="Izabela Mendes" className="h-12 w-12" />
+              <img src={dornelasLogo} alt="Dornelas Cosméticos" className="h-12 w-12" />
               <div>
                 <h3 className="font-bold text-lg">Izabela Mendes</h3>
                 <p className="text-sm text-primary-foreground/80">Consultora Dornelas</p>

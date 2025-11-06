@@ -1,7 +1,7 @@
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { Sparkles, ShieldCheck, Truck } from "lucide-react";
 import izabelaPhoto from "@/assets/izabela-photo.png";
-import izabelaLogo from "@/assets/izabela-logo.png";
+import izabelaLogo from "@/assets/izabela-logo-green.png";
 
 export const Hero = () => {
   return (
