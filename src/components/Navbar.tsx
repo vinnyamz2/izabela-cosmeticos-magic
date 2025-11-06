@@ -1,7 +1,7 @@
 import { NavLink } from "@/components/NavLink";
 import { Menu } from "lucide-react";
 import { useState } from "react";
-import izabelaLogo from "@/assets/izabela-logo-green.png";
+import izabelaLogo from "@/assets/izabela-logo.png";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
