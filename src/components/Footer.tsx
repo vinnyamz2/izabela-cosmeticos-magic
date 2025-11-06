@@ -1,7 +1,7 @@
 import { Instagram, Mail, Phone, MapPin } from "lucide-react";
-import izabelaLogo from "@/assets/izabela-logo.png";
+import izabelaLogo from "@/assets/izabela-logo-white.png";
 import toctusLogo from "@/assets/toctus-logo.png";
-import brandLogo from "@/assets/brand-logo-1.png";
+import dornelasLogo from "@/assets/dornelas-logo.png";
 
 export const Footer = () => {
   return (
@@ -62,8 +62,8 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Marcas Parceiras</h4>
             <div className="flex flex-wrap gap-4 items-center">
+              <img src={dornelasLogo} alt="Dornelas Cosméticos" className="h-12 opacity-80 hover:opacity-100 transition-opacity" />
               <img src={toctusLogo} alt="Toctus" className="h-8 opacity-80 hover:opacity-100 transition-opacity" />
-              <img src={brandLogo} alt="Parceiro" className="h-8 opacity-80 hover:opacity-100 transition-opacity" />
             </div>
             <p className="text-xs text-primary-foreground/60 mt-4">
               Produtos oficiais com garantia de procedência
