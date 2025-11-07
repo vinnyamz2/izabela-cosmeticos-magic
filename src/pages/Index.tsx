@@ -2,7 +2,7 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { AboutSection } from "@/components/AboutSection";
 import { ProductCard } from "@/components/ProductCard";
-import { TestimonialChat } from "@/components/TestimonialChat";
+import { WhatsAppTestimonials } from "@/components/WhatsAppTestimonials";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
@@ -38,23 +38,6 @@ const Index = () => {
     },
   ];
 
-  const testimonials = [
-    {
-      name: "Maria Silva",
-      message: "Adorei o atendimento da Izabela! Ela me ajudou a escolher os produtos certos para meu tipo de pele. Minha pele nunca esteve tão bonita! 💚",
-      rating: 5,
-    },
-    {
-      name: "Ana Costa",
-      message: "Produtos originais, entrega rápida e preço justo. Super recomendo! A Izabela é muito atenciosa e sempre tira minhas dúvidas.",
-      rating: 5,
-    },
-    {
-      name: "Juliana Santos",
-      message: "Comprei o shampoo e já vi resultados em uma semana! Meu cabelo está mais hidratado e brilhoso. Voltarei a comprar com certeza!",
-      rating: 5,
-    },
-  ];
 
   const handleBuyClick = (productName: string) => {
     const message = `Olá Izabela! Tenho interesse no produto: ${productName}. Pode me dar mais informações?`;
@@ -103,33 +86,8 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Testimonials */}
-        <section className="py-16 md:py-24 bg-muted/30">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-primary mb-4 md:text-4xl">
-                O que dizem as clientes
-              </h2>
-              <p className="text-muted-foreground">
-                Depoimentos reais de quem já comprou comigo
-              </p>
-            </div>
-
-            <div className="max-w-3xl mx-auto space-y-6">
-              {testimonials.map((testimonial, index) => (
-                <TestimonialChat key={index} {...testimonial} />
-              ))}
-            </div>
-
-            <div className="text-center mt-12">
-              <NavLink to="/depoimentos">
-                <Button variant="outline" className="text-primary border-primary hover:bg-primary hover:text-primary-foreground">
-                  Ver mais depoimentos
-                </Button>
-              </NavLink>
-            </div>
-          </div>
-        </section>
+        {/* WhatsApp Style Testimonials */}
+        <WhatsAppTestimonials />
 
         <FAQ />
       </main>
