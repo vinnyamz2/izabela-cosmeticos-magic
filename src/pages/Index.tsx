@@ -10,31 +10,27 @@ import { Button } from "@/components/ui/button";
 import { NavLink } from "@/components/NavLink";
 
 const Index = () => {
-  // Sample products (você pode adicionar mais depois)
   const featuredProducts = [
     {
-      name: "Shampoo Hidratante Premium",
-      price: "R$ 89,90",
-      description: "Hidratação profunda e brilho natural para todos os tipos de cabelo",
-      image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=500",
-      benefits: ["Hidratação", "Brilho", "Maciez"],
-      category: "Cabelos",
+      name: "Pro Resgate",
+      description: "Tratamento intensivo que resgata cabelos danificados, devolvendo vida, força e brilho",
+      image: "/src/assets/products/produto-01.jpeg",
+      benefits: ["Restauração", "Força", "Brilho"],
+      category: "Tratamentos",
     },
     {
-      name: "Sérum Facial Vitamina C",
-      price: "R$ 129,90",
-      description: "Clareamento, proteção antioxidante e rejuvenescimento da pele",
-      image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500",
-      benefits: ["Clareamento", "Anti-idade", "Proteção"],
-      category: "Pele",
+      name: "A Terrena",
+      description: "Linha completa de tratamento profissional para hidratação e nutrição profunda dos fios",
+      image: "/src/assets/products/produto-02.jpeg",
+      benefits: ["Hidratação", "Nutrição", "Maciez"],
+      category: "Tratamentos",
     },
     {
-      name: "Creme Corporal Nutritivo",
-      price: "R$ 65,90",
-      description: "Nutrição intensa e aroma suave para pele macia o dia todo",
-      image: "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=500",
-      benefits: ["Nutrição", "Hidratação", "Perfume"],
-      category: "Corpo",
+      name: "Mãe Terra",
+      description: "Cosméticos naturais que respeitam seus cabelos e o meio ambiente, com ingredientes orgânicos",
+      image: "/src/assets/products/produto-03.jpeg",
+      benefits: ["Natural", "Orgânico", "Sustentável"],
+      category: "Linha Natural",
     },
   ];
 

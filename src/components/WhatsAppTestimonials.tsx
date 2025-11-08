@@ -9,12 +9,12 @@ export const WhatsAppTestimonials = () => {
       clientCity: "São Paulo - SP",
       clientAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Maria",
       consultantName: "Izabela Mendes",
-      consultantAvatar: "/src/assets/izabela-logo-green.png",
+      consultantAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Izabela",
       rating: 5,
       messages: [
         {
           sender: "consultant" as const,
-          text: "Oi Maria! Como você está gostando do Shampoo Hidratante? 😊",
+          text: "Oi Maria! Como você está gostando do Pro Resgate? 😊",
           time: "14:23",
         },
         {
@@ -29,7 +29,7 @@ export const WhatsAppTestimonials = () => {
         },
         {
           sender: "client" as const,
-          audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/BabyElephantWalk60.wav",
+          audioUrl: "/src/assets/audios/depoimento-maria.ogg",
           audioDuration: "0:17",
           time: "14:27",
         },
@@ -40,17 +40,17 @@ export const WhatsAppTestimonials = () => {
       clientCity: "Rio de Janeiro - RJ",
       clientAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Ana",
       consultantName: "Izabela Mendes",
-      consultantAvatar: "/src/assets/izabela-logo-green.png",
+      consultantAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=IzabelaMendes",
       rating: 5,
       messages: [
         {
           sender: "consultant" as const,
-          text: "Oi Ana! Tudo bem? Como foi com o Sérum de Vitamina C? 💛",
+          text: "Oi Ana! Tudo bem? Como foi com A Terrena? 💛",
           time: "10:15",
         },
         {
           sender: "client" as const,
-          text: "Izabela, to impressionada! Minha pele tá outra em apenas 2 semanas! 🤩",
+          text: "Izabela, to impressionada! Meu cabelo tá outra coisa em apenas 2 semanas! 🤩",
           time: "10:18",
         },
         {
@@ -70,22 +70,22 @@ export const WhatsAppTestimonials = () => {
       clientCity: "Belo Horizonte - MG",
       clientAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Juliana",
       consultantName: "Izabela Mendes",
-      consultantAvatar: "/src/assets/izabela-logo-green.png",
+      consultantAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=IzaMendes",
       rating: 5,
       messages: [
         {
           sender: "consultant" as const,
-          text: "Oi Ju! E aí, gostou do Creme Corporal? 🌸",
+          text: "Oi Ju! E aí, gostou da Mãe Terra? 🌸",
           time: "16:42",
         },
         {
           sender: "client" as const,
-          text: "Gostei é pouco, Iza! AMEI! 😍 O cheiro é maravilhoso e deixa a pele super hidratada o dia todo",
+          text: "Izabela, eu amei! 😍 Meu cabelo ficou super macio, com brilho e um cheirinho maravilhoso! 💚✨",
           time: "16:45",
         },
         {
           sender: "client" as const,
-          audioUrl: "https://www2.cs.uic.edu/~i101/SoundFiles/PinkPanther30.wav",
+          audioUrl: "/src/assets/audios/depoimento-juliana.ogg",
           audioDuration: "0:22",
           time: "16:46",
         },
