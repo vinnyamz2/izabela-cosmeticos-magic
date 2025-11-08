@@ -5,7 +5,7 @@ import { ShoppingBag, Star } from "lucide-react";
 
 interface ProductCardProps {
   name: string;
-  price: string;
+  price?: string;
   description: string;
   image: string;
   benefits?: string[];
@@ -48,7 +48,7 @@ export const ProductCard = ({
         <p className="text-sm text-muted-foreground mb-3 line-clamp-2">{description}</p>
         
         {benefits.length > 0 && (
-          <div className="flex flex-wrap gap-1 mb-3">
+          <div className="flex flex-wrap gap-1">
             {benefits.slice(0, 3).map((benefit, index) => (
               <Badge key={index} variant="outline" className="text-xs">
                 {benefit}
@@ -56,8 +56,6 @@ export const ProductCard = ({
             ))}
           </div>
         )}
-
-        <p className="text-2xl font-bold text-primary">{price}</p>
       </CardContent>
 
       <CardFooter className="p-4 pt-0">
