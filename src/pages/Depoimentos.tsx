@@ -8,7 +8,7 @@ const Depoimentos = () => {
   const testimonials = [
     {
       name: "Maria Silva",
-      message: "Adorei o atendimento da Izabela! Ela me ajudou a escolher os produtos certos para meu tipo de pele. Minha pele nunca esteve tão bonita! 💚",
+      message: "Depois que comecei a usar o Shampoo Quelante Orto Botanica, meu cabelo nunca mais ficou pesado! Sinto ele super leve, com movimento e brilho de salão!",
       rating: 5,
     },
     {
@@ -28,12 +28,12 @@ const Depoimentos = () => {
     },
     {
       name: "Patrícia Lima",
-      message: "Comprei o sérum de vitamina C e estou vendo resultados incríveis! Minha pele está mais clara e uniforme. Recomendo demais!",
+      message: "Usei o Pró-Resgate depois de uma descoloração e fiquei chocada! Meu cabelo parecia outro, super hidratado e com vida de novo. 🥰",
       rating: 5,
     },
     {
       name: "Fernanda Souza",
-      message: "O creme corporal tem um cheiro maravilhoso e deixa a pele super macia. Estou viciada! E o atendimento da Izabela é nota 10!",
+      message: "O Kit Monovin Completo foi a melhor coisa que já usei! Meu cabelo tá crescendo muito mais rápido e parou de cair. Resultado em menos de 15 dias!",
       rating: 5,
     },
     {
@@ -43,17 +43,17 @@ const Depoimentos = () => {
     },
     {
       name: "Renata Cardoso",
-      message: "Recebi minha encomenda super rápido e bem embalada. Os produtos vieram lacrados e originais. Confiança total!",
+      message: "A linha Maria Bonita é simplesmente perfeita! O cabelo fica com um brilho natural e aquele toque macio que a gente ama.",
       rating: 5,
     },
     {
       name: "Amanda Ferreira",
-      message: "A água micelar é perfeita! Remove toda a maquiagem sem agredir a pele. Melhor compra que fiz!",
+      message: "O Shampoo e Balm Fitoativo Maria Bonita deixaram meu cabelo soltinho e leve, sem oleosidade. E o cheiro é maravilhoso!",
       rating: 5,
     },
     {
       name: "Camila Rocha",
-      message: "O perfume que comprei é incrível! Durabilidade excelente e um cheiro sofisticado. A Izabela me ajudou a escolher e acertou em cheio!",
+      message: "Com o Kit Cronograma Capilar Fluence, consegui recuperar todo o meu cabelo. As máscaras são potentes e o resultado é de salão!",
       rating: 5,
     },
   ];

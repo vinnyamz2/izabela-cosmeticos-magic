@@ -17,7 +17,7 @@ export const WhatsAppTestimonials = () => {
       messages: [
         {
           sender: "consultant" as const,
-          text: "Oi Maria! Como você está gostando do Pró-Resgate? 😊",
+          text: "Oi Maria! você está gostando do Pró-Resgate? 😊",
           time: "14:23",
         },
         {
@@ -78,7 +78,7 @@ export const WhatsAppTestimonials = () => {
       messages: [
         {
           sender: "consultant" as const,
-          text: "Oi Ju! E aí, gostou do Blend Vitamínico Mãe Terra? 🌸",
+          text: "Oi Ju! E aí, gostou do Shampoo Quelante Orto Botanica? 🌸",
           time: "16:42",
         },
         {

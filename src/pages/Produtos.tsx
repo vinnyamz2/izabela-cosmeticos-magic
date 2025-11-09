@@ -123,7 +123,7 @@ const Produtos = () => {
       category: "hidratacao",
     },
     {
-      name: "A Terrena - Tratamento Capilar",
+      name: "Terrena - Tratamento Capilar",
       description: "Tratamento para caspa, foliculite, psoríase, dermatite, anti-queda e coceira. Shampoo energizante e condicionador fortificante com tônico laurador que revitaliza o couro cabeludo.",
       image: new URL("@/assets/products/produto-17.jpeg", import.meta.url).href,
       benefits: ["Anti-Caspa", "Anti-Queda", "Tratamento do Couro"],
@@ -151,7 +151,7 @@ const Produtos = () => {
       category: "alisamento",
     },
     {
-      name: "Translúcido - Ativador de Cachos",
+      name: "Transição Capilar - Ativador de Cachos",
       description: "Transforme seus cachos! Creme incrível que mantém seus cachos impecáveis, repara cabelos danificados e ajuda na retenção da umidade, deixando-os visivelmente saudáveis.",
       image: new URL("@/assets/products/produto-21.jpeg", import.meta.url).href,
       benefits: ["Definição de Cachos", "Hidratação", "Reparação"],
