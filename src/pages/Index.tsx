@@ -15,11 +15,25 @@ import produto3 from "@/assets/products/produto-03.jpeg";
 const Index = () => {
   const featuredProducts = [
     {
+      name: "Pro Resgate",
+      description: "Tratamento intensivo para recuperação capilar profunda, devolvendo vida aos fios danificados",
+      image: produto1,
+      benefits: ["Recuperação", "Força", "Revitalização"],
+      category: "Tratamento",
+    },
+    {
       name: "A Terrena",
       description: "Hidratação profunda com ativos naturais que transformam seus cabelos com maciez e brilho intenso",
       image: produto2,
       benefits: ["Hidratação", "Brilho", "Maciez"],
       category: "Hidratação",
+    },
+    {
+      name: "Mãe Terra",
+      description: "Nutrição completa com ingredientes naturais, trazendo saúde e vitalidade aos seus cabelos",
+      image: produto3,
+      benefits: ["Nutrição", "Vitalidade", "Naturalidade"],
+      category: "Nutrição",
     },
   ];
 
