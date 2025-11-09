@@ -8,29 +8,32 @@ import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { Button } from "@/components/ui/button";
 import { NavLink } from "@/components/NavLink";
+import produto1 from "@/assets/products/produto-01.jpeg";
+import produto2 from "@/assets/products/produto-02.jpeg";
+import produto3 from "@/assets/products/produto-03.jpeg";
 
 const Index = () => {
   const featuredProducts = [
     {
       name: "Pro Resgate",
-      description: "Tratamento intensivo que resgata cabelos danificados, devolvendo vida, força e brilho",
-      image: "/src/assets/products/produto-01.jpeg",
-      benefits: ["Restauração", "Força", "Brilho"],
-      category: "Tratamentos",
+      description: "Tratamento intensivo para recuperação capilar profunda, devolvendo vida aos fios danificados",
+      image: produto1,
+      benefits: ["Recuperação", "Força", "Revitalização"],
+      category: "Tratamento",
     },
     {
       name: "A Terrena",
-      description: "Linha completa de tratamento profissional para hidratação e nutrição profunda dos fios",
-      image: "/src/assets/products/produto-02.jpeg",
-      benefits: ["Hidratação", "Nutrição", "Maciez"],
-      category: "Tratamentos",
+      description: "Hidratação profunda com ativos naturais que transformam seus cabelos com maciez e brilho intenso",
+      image: produto2,
+      benefits: ["Hidratação", "Brilho", "Maciez"],
+      category: "Hidratação",
     },
     {
       name: "Mãe Terra",
-      description: "Cosméticos naturais que respeitam seus cabelos e o meio ambiente, com ingredientes orgânicos",
-      image: "/src/assets/products/produto-03.jpeg",
-      benefits: ["Natural", "Orgânico", "Sustentável"],
-      category: "Linha Natural",
+      description: "Nutrição completa com ingredientes naturais, trazendo saúde e vitalidade aos seus cabelos",
+      image: produto3,
+      benefits: ["Nutrição", "Vitalidade", "Naturalidade"],
+      category: "Nutrição",
     },
   ];
 
