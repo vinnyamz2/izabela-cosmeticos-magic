@@ -8,32 +8,30 @@ import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { Button } from "@/components/ui/button";
 import { NavLink } from "@/components/NavLink";
-import produto1 from "@/assets/products/produto-01.jpeg";
 import produto2 from "@/assets/products/produto-02.jpeg";
-import produto3 from "@/assets/products/produto-03.jpeg";
 
 const Index = () => {
   const featuredProducts = [
     {
-      name: "Pro Resgate",
-      description: "Tratamento intensivo para recuperação capilar profunda, devolvendo vida aos fios danificados",
-      image: produto1,
-      benefits: ["Recuperação", "Força", "Revitalização"],
+      name: "Pró-Resgate",
+      description: "Perfeito para cabelos secos e danificados. Indicado para processos de selagem, botox, descolorações e colorações. Também ideal para cabelos secos que precisam de restauração profunda.",
+      image: produto2,
+      benefits: ["Selagem", "Botox", "Restauração"],
       category: "Tratamento",
     },
     {
-      name: "A Terrena",
-      description: "Hidratação profunda com ativos naturais que transformam seus cabelos com maciez e brilho intenso",
-      image: produto2,
-      benefits: ["Hidratação", "Brilho", "Maciez"],
-      category: "Hidratação",
+      name: "Terrena",
+      description: "Tratamento para caspa, foliculite, psoríase, dermatite, anti-queda e coceira. Shampoo energizante e condicionador fortificante com tônico laurador que revitaliza o couro cabeludo.",
+      image: new URL("@/assets/products/produto-17.jpeg", import.meta.url).href,
+      benefits: ["Anti-Caspa", "Anti-Queda", "Tratamento do Couro"],
+      category: "Tratamento",
     },
     {
-      name: "Mãe Terra",
-      description: "Nutrição completa com ingredientes naturais, trazendo saúde e vitalidade aos seus cabelos",
-      image: produto3,
-      benefits: ["Nutrição", "Vitalidade", "Naturalidade"],
-      category: "Nutrição",
+      name: "Blend Vitamínico Mãe Terra",
+      description: "Blend de vitaminas A, E, B5 com óleo de semente de abóbora e alecrim. Previne cabelos brancos, trata alopecia e estimula o crescimento. Tratamento altamente nutritivo e umectante.",
+      image: new URL("@/assets/products/produto-11.jpeg", import.meta.url).href,
+      benefits: ["Vitaminas", "Anti-Queda", "Crescimento"],
+      category: "Crescimento",
     },
   ];
 

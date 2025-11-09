@@ -1,20 +1,23 @@
 import { WhatsAppTestimonial } from "./WhatsAppTestimonial";
 import { WhatsAppButton } from "./WhatsAppButton";
 import { MessageCircle } from "lucide-react";
+import mariaSilvaAvatar from "@/assets/clients/maria-silva.jpg";
+import anaCostaAvatar from "@/assets/clients/ana-costa.jpg";
+import julianaSantosAvatar from "@/assets/clients/juliana-santos.jpg";
 
 export const WhatsAppTestimonials = () => {
   const testimonials = [
     {
       clientName: "Maria Silva",
-      clientCity: "São Paulo - SP",
-      clientAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Maria",
+      clientCity: "Parauapebas - PA",
+      clientAvatar: mariaSilvaAvatar,
       consultantName: "Izabela Mendes",
       consultantAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Izabela",
       rating: 5,
       messages: [
         {
           sender: "consultant" as const,
-          text: "Oi Maria! Como você está gostando do Pro Resgate? 😊",
+          text: "Oi Maria! Como você está gostando do Pró-Resgate? 😊",
           time: "14:23",
         },
         {
@@ -37,15 +40,15 @@ export const WhatsAppTestimonials = () => {
     },
     {
       clientName: "Ana Costa",
-      clientCity: "Rio de Janeiro - RJ",
-      clientAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Ana",
+      clientCity: "Parauapebas - PA",
+      clientAvatar: anaCostaAvatar,
       consultantName: "Izabela Mendes",
       consultantAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=IzabelaMendes",
       rating: 5,
       messages: [
         {
           sender: "consultant" as const,
-          text: "Oi Ana! Tudo bem? Como foi com A Terrena? 💛",
+          text: "Oi Ana! Tudo bem? Como foi com a Terrena? 💛",
           time: "10:15",
         },
         {
@@ -67,15 +70,15 @@ export const WhatsAppTestimonials = () => {
     },
     {
       clientName: "Juliana Santos",
-      clientCity: "Belo Horizonte - MG",
-      clientAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Juliana",
+      clientCity: "Parauapebas - PA",
+      clientAvatar: julianaSantosAvatar,
       consultantName: "Izabela Mendes",
       consultantAvatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=IzaMendes",
       rating: 5,
       messages: [
         {
           sender: "consultant" as const,
-          text: "Oi Ju! E aí, gostou da Mãe Terra? 🌸",
+          text: "Oi Ju! E aí, gostou do Blend Vitamínico Mãe Terra? 🌸",
           time: "16:42",
         },
         {

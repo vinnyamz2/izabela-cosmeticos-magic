@@ -16,16 +16,6 @@ export const TestimonialChat = ({
 }: TestimonialChatProps) => {
   return (
     <div className="animate-slide-up">
-      {/* Typing indicator animation */}
-      <div className="mb-2 flex items-center gap-2 px-4">
-        <div className="flex items-center gap-1">
-          <div className="h-2 w-2 animate-pulse rounded-full bg-secondary"></div>
-          <div className="h-2 w-2 animate-pulse rounded-full bg-secondary delay-75"></div>
-          <div className="h-2 w-2 animate-pulse rounded-full bg-secondary delay-150"></div>
-        </div>
-        <span className="text-xs text-muted-foreground">{name} está digitando...</span>
-      </div>
-
       {/* Message bubble */}
       <div className="flex items-start gap-3 px-4">
         <img

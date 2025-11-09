@@ -55,12 +55,12 @@ export const WhatsAppTestimonial = ({
       {/* WhatsApp Header */}
       <div className="bg-[#075E54] rounded-t-lg -mx-4 -mt-4 px-4 py-3 mb-4 flex items-center gap-3">
         <img
-          src={consultantAvatar}
-          alt={consultantName}
+          src={clientAvatar}
+          alt={clientName}
           className="w-10 h-10 rounded-full border-2 border-white"
         />
         <div className="flex-1">
-          <h3 className="text-white font-semibold text-sm">{consultantName}</h3>
+          <h3 className="text-white font-semibold text-sm">{clientName}</h3>
           <p className="text-white/80 text-xs">online</p>
         </div>
       </div>
