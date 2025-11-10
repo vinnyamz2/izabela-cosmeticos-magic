@@ -31,16 +31,22 @@ export const WhatsAppAudioPlayer = ({ audioUrl, duration = "0:17" }: WhatsAppAud
     };
   }, []);
 
-  const togglePlay = () => {
+  const togglePlay = async () => {
     const audio = audioRef.current;
     if (!audio) return;
 
-    if (isPlaying) {
-      audio.pause();
-    } else {
-      audio.play();
+    try {
+      if (isPlaying) {
+        audio.pause();
+        setIsPlaying(false);
+      } else {
+        await audio.play();
+        setIsPlaying(true);
+      }
+    } catch (error) {
+      console.error("Erro ao reproduzir áudio:", error);
+      setIsPlaying(false);
     }
-    setIsPlaying(!isPlaying);
   };
 
   const formatTime = (time: number) => {
@@ -53,7 +59,7 @@ export const WhatsAppAudioPlayer = ({ audioUrl, duration = "0:17" }: WhatsAppAud
 
   return (
     <div className="flex items-center gap-2 bg-white/80 rounded-lg px-3 py-2 max-w-[250px]">
-      <audio ref={audioRef} src={audioUrl} />
+      <audio ref={audioRef} src={audioUrl} preload="metadata" />
       
       <button
         onClick={togglePlay}
