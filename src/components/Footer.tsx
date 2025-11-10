@@ -7,16 +7,16 @@ import brandLogo from "@/assets/brand-logo-1.png";
 export const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground">
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+      <div className="container mx-auto px-4 py-8 sm:py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8">
           {/* About */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <img src={izabelaLogo} alt="Izabela Mendes" className="h-12 w-12" />
-              <img src={dornelasLogo} alt="Dornelas Cosméticos" className="h-12 w-12" />
+            <div className="flex items-center gap-2 sm:gap-3 mb-4">
+              <img src={izabelaLogo} alt="Izabela Mendes" className="h-10 w-10 sm:h-12 sm:w-12" />
+              <img src={dornelasLogo} alt="Dornelas Cosméticos" className="h-10 w-10 sm:h-12 sm:w-12" />
               <div>
-                <h3 className="font-bold text-lg">Izabela Mendes</h3>
-                <p className="text-sm text-primary-foreground/80">Consultora Dornelas</p>
+                <h3 className="font-bold text-base sm:text-lg">Izabela Mendes</h3>
+                <p className="text-xs sm:text-sm text-primary-foreground/80">Consultora Dornelas</p>
               </div>
             </div>
             <p className="text-sm text-primary-foreground/80 leading-relaxed">

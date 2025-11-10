@@ -20,12 +20,12 @@ export const Hero = () => {
               <Sparkles className="h-8 w-8 text-accent" />
             </div>
 
-            <h1 className="text-4xl font-bold leading-tight text-primary md:text-5xl lg:text-6xl">
+            <h1 className="text-3xl sm:text-4xl font-bold leading-tight text-primary md:text-5xl lg:text-6xl">
               Olá, sou a{" "}
               <span className="text-secondary">Izabela Mendes</span>
             </h1>
 
-            <p className="text-lg text-foreground/80 md:text-xl">
+            <p className="text-base sm:text-lg text-foreground/80 md:text-xl">
               Consultora oficial <strong className="text-primary">Dornelas Cosméticos</strong>.
               <br />
               Vou te ajudar a cuidar da sua pele e do seu bem-estar 💚
@@ -34,7 +34,7 @@ export const Hero = () => {
             <div className="flex flex-col gap-4 sm:flex-row">
               <WhatsAppButton 
                 phoneNumber="5594984214990"
-                className="text-lg px-8 py-6"
+                className="text-base sm:text-lg px-6 py-4 sm:px-8 sm:py-6 w-full sm:w-auto"
               >
                 <span className="font-semibold">Falar com Izabela agora</span>
               </WhatsAppButton>

@@ -52,18 +52,18 @@ const Index = () => {
         <AboutSection />
 
         {/* Featured Products */}
-        <section className="py-16 md:py-24">
+        <section className="py-12 sm:py-16 md:py-24">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-primary mb-4 md:text-4xl">
+            <div className="text-center mb-8 sm:mb-12">
+              <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4 md:text-4xl">
                 Produtos em Destaque
               </h2>
-              <p className="text-muted-foreground">
+              <p className="text-sm sm:text-base text-muted-foreground">
                 Seleção especial dos produtos mais procurados
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8">
               {featuredProducts.map((product, index) => (
                 <ProductCard
                   key={index}
@@ -75,7 +75,7 @@ const Index = () => {
 
             <div className="text-center">
               <NavLink to="/produtos">
-                <Button size="lg" variant="outline" className="text-primary border-primary hover:bg-primary hover:text-primary-foreground">
+                <Button size="lg" variant="outline" className="text-primary border-primary hover:bg-primary hover:text-primary-foreground w-full sm:w-auto">
                   Ver todos os produtos
                 </Button>
               </NavLink>

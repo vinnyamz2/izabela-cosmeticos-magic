@@ -12,21 +12,21 @@ const Sobre = () => {
 
       <main>
         {/* Header */}
-        <section className="hero-gradient grain-texture py-16">
+        <section className="hero-gradient grain-texture py-12 sm:py-16">
           <div className="container mx-auto px-4">
-            <div className="grid items-center gap-12 lg:grid-cols-2">
+            <div className="grid items-center gap-8 sm:gap-12 lg:grid-cols-2">
               {/* Text */}
               <div className="animate-fade-in">
-                <h1 className="text-4xl font-bold text-primary mb-6 md:text-5xl">
+                <h1 className="text-3xl sm:text-4xl font-bold text-primary mb-4 sm:mb-6 md:text-5xl">
                   Conheça a
                   <br />
                   <span className="text-secondary">Izabela Mendes</span>
                 </h1>
-                <p className="text-lg text-foreground/80 leading-relaxed mb-6">
+                <p className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-4 sm:mb-6">
                   Apaixonada por beleza, bem-estar e por ajudar pessoas a se sentirem 
                   mais confiantes e felizes consigo mesmas.
                 </p>
-                <p className="text-lg text-foreground/80 leading-relaxed">
+                <p className="text-base sm:text-lg text-foreground/80 leading-relaxed">
                   Como consultora oficial <strong>Dornelas Cosméticos</strong>, 
                   tenho o compromisso de oferecer apenas produtos originais, 
                   atendimento personalizado e dicas que realmente fazem a diferença 
@@ -50,16 +50,16 @@ const Sobre = () => {
         <AboutSection />
 
         {/* Mission & Vision */}
-        <section className="py-16 md:py-24">
+        <section className="py-12 sm:py-16 md:py-24">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-5xl mx-auto">
               {/* Mission */}
-              <div className="bg-secondary/10 rounded-2xl p-8 card-shadow">
-                <div className="h-14 w-14 rounded-full bg-secondary/20 flex items-center justify-center mb-6">
-                  <Target className="h-7 w-7 text-secondary" />
+              <div className="bg-secondary/10 rounded-2xl p-6 sm:p-8 card-shadow">
+                <div className="h-12 w-12 sm:h-14 sm:w-14 rounded-full bg-secondary/20 flex items-center justify-center mb-4 sm:mb-6">
+                  <Target className="h-6 w-6 sm:h-7 sm:w-7 text-secondary" />
                 </div>
-                <h3 className="text-2xl font-bold text-primary mb-4">Missão</h3>
-                <p className="text-foreground/80 leading-relaxed">
+                <h3 className="text-xl sm:text-2xl font-bold text-primary mb-3 sm:mb-4">Missão</h3>
+                <p className="text-sm sm:text-base text-foreground/80 leading-relaxed">
                   Proporcionar uma experiência única de compra, oferecendo produtos 
                   de alta qualidade e atendimento personalizado, ajudando cada cliente 
                   a encontrar o melhor para sua beleza e bem-estar.
@@ -67,12 +67,12 @@ const Sobre = () => {
               </div>
 
               {/* Vision */}
-              <div className="bg-accent/10 rounded-2xl p-8 card-shadow">
-                <div className="h-14 w-14 rounded-full bg-accent/20 flex items-center justify-center mb-6">
-                  <Sparkles className="h-7 w-7 text-accent" />
+              <div className="bg-accent/10 rounded-2xl p-6 sm:p-8 card-shadow">
+                <div className="h-12 w-12 sm:h-14 sm:w-14 rounded-full bg-accent/20 flex items-center justify-center mb-4 sm:mb-6">
+                  <Sparkles className="h-6 w-6 sm:h-7 sm:w-7 text-accent" />
                 </div>
-                <h3 className="text-2xl font-bold text-primary mb-4">Visão</h3>
-                <p className="text-foreground/80 leading-relaxed">
+                <h3 className="text-xl sm:text-2xl font-bold text-primary mb-3 sm:mb-4">Visão</h3>
+                <p className="text-sm sm:text-base text-foreground/80 leading-relaxed">
                   Ser referência em consultoria de cosméticos na região, conhecida 
                   pela confiabilidade, qualidade dos produtos e pelo carinho com que 
                   cada cliente é atendido.
@@ -83,13 +83,13 @@ const Sobre = () => {
         </section>
 
         {/* Differentials */}
-        <section className="py-16 bg-muted/30">
+        <section className="py-12 sm:py-16 bg-muted/30">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-primary text-center mb-12 md:text-4xl">
+            <h2 className="text-2xl sm:text-3xl font-bold text-primary text-center mb-8 sm:mb-12 md:text-4xl">
               Por que comprar comigo?
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-6xl mx-auto">
               <div className="bg-background rounded-xl p-6 card-shadow text-center">
                 <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                   <Award className="h-8 w-8 text-primary" />
@@ -142,20 +142,20 @@ const Sobre = () => {
         </section>
 
         {/* CTA */}
-        <section className="py-16 md:py-24">
+        <section className="py-12 sm:py-16 md:py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl font-bold text-primary mb-6 md:text-4xl">
+              <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4 sm:mb-6 md:text-4xl">
                 Vamos conversar?
               </h2>
-              <p className="text-lg text-foreground/80 mb-8">
+              <p className="text-base sm:text-lg text-foreground/80 mb-6 sm:mb-8">
                 Estou aqui para te ajudar a encontrar os produtos perfeitos.
                 Entre em contato pelo WhatsApp!
               </p>
               <WhatsAppButton
                 phoneNumber="5594984214990"
                 message="Olá Izabela! Gostaria de conhecer mais sobre os produtos."
-                className="text-lg px-8 py-6"
+                className="text-base sm:text-lg px-6 py-4 sm:px-8 sm:py-6 w-full sm:w-auto"
               />
             </div>
           </div>

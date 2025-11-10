@@ -281,32 +281,32 @@ const Produtos = () => {
 
       <main>
         {/* Header */}
-        <section className="hero-gradient grain-texture py-16">
+        <section className="hero-gradient grain-texture py-12 sm:py-16">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-4xl font-bold text-primary mb-4 md:text-5xl animate-fade-in">
+            <h1 className="text-3xl sm:text-4xl font-bold text-primary mb-4 md:text-5xl animate-fade-in">
               Catálogo de Produtos
             </h1>
-            <p className="text-lg text-foreground/80 max-w-2xl mx-auto animate-slide-up">
+            <p className="text-base sm:text-lg text-foreground/80 max-w-2xl mx-auto animate-slide-up">
               Escolha os produtos ideais para o seu cuidado pessoal
             </p>
           </div>
         </section>
 
         {/* Products Grid */}
-        <section className="py-16">
+        <section className="py-12 sm:py-16">
           <div className="container mx-auto px-4">
             {/* Category Tabs */}
-            <Tabs defaultValue="todos" className="mb-12" onValueChange={setSelectedCategory}>
-              <TabsList className="grid w-full grid-cols-2 lg:grid-cols-5 mb-8 h-auto">
-                <TabsTrigger value="todos" className="py-3">Todos</TabsTrigger>
-                <TabsTrigger value="tratamentos" className="py-3">Tratamentos</TabsTrigger>
-                <TabsTrigger value="hidratacao" className="py-3">Hidratação</TabsTrigger>
-                <TabsTrigger value="alisamento" className="py-3">Alisamento</TabsTrigger>
-                <TabsTrigger value="crescimento" className="py-3">Crescimento</TabsTrigger>
+            <Tabs defaultValue="todos" className="mb-8 sm:mb-12" onValueChange={setSelectedCategory}>
+              <TabsList className="grid w-full grid-cols-2 lg:grid-cols-5 mb-6 sm:mb-8 h-auto gap-2">
+                <TabsTrigger value="todos" className="py-2 sm:py-3 text-xs sm:text-sm">Todos</TabsTrigger>
+                <TabsTrigger value="tratamentos" className="py-2 sm:py-3 text-xs sm:text-sm">Tratamentos</TabsTrigger>
+                <TabsTrigger value="hidratacao" className="py-2 sm:py-3 text-xs sm:text-sm">Hidratação</TabsTrigger>
+                <TabsTrigger value="alisamento" className="py-2 sm:py-3 text-xs sm:text-sm">Alisamento</TabsTrigger>
+                <TabsTrigger value="crescimento" className="py-2 sm:py-3 text-xs sm:text-sm">Crescimento</TabsTrigger>
               </TabsList>
 
               <TabsContent value={selectedCategory}>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                   {filteredProducts.map((product, index) => (
                     <ProductCard
                       key={index}

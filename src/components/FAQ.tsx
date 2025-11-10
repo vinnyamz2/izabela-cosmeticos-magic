@@ -31,10 +31,10 @@ export const FAQ = () => {
   ];
 
   return (
-    <section className="py-16 md:py-24">
+    <section className="py-12 sm:py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold text-primary mb-4 text-center md:text-4xl">
+          <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4 text-center md:text-4xl">
             Dúvidas Frequentes
           </h2>
           <p className="text-center text-muted-foreground mb-12">
@@ -58,13 +58,14 @@ export const FAQ = () => {
             ))}
           </Accordion>
 
-          <div className="mt-12 text-center">
-            <p className="text-lg text-foreground/80 mb-6">
+          <div className="mt-8 sm:mt-12 text-center">
+            <p className="text-base sm:text-lg text-foreground/80 mb-4 sm:mb-6">
               Ainda tem dúvidas? Fale comigo!
             </p>
             <WhatsAppButton 
               phoneNumber="5594984214990"
               message="Olá Izabela! Tenho uma dúvida sobre os produtos."
+              className="w-full sm:w-auto"
             >
               💬 Conversar agora
             </WhatsAppButton>
