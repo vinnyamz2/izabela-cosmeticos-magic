@@ -19,9 +19,9 @@ export const TestimonialChat = ({
       {/* Message bubble */}
       <div className="flex items-start gap-3 px-4">
         <img
-          src={`${avatar}${name}`}
+          src={avatar || `https://api.dicebear.com/7.x/avataaars/svg?seed=${name}`}
           alt={name}
-          className="h-10 w-10 rounded-full ring-2 ring-secondary"
+          className="h-10 w-10 md:h-12 md:w-12 rounded-full ring-2 ring-secondary object-cover"
         />
         <Card className="flex-1 bg-secondary/10 border-secondary/20">
           <div className="p-4">
