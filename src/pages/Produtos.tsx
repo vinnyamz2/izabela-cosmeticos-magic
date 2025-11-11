@@ -262,6 +262,41 @@ const Produtos = () => {
       benefits: ["Restauração", "Reconstrução", "Reposição"],
       category: "tratamentos",
     },
+    {
+      name: "Bálsamo Serenice Aromacqua",
+      description: "Um cuidado que vai além da beleza! Com óleo essencial de lavanda e óleo de coco babaçu, ele hidrata, nutre e equilibra os fios e o couro cabeludo. Deixa o cabelo macio, leve, com brilho e um aroma relaxante.",
+      image: new URL("@/assets/products/produto-37.jpeg", import.meta.url).href,
+      benefits: ["Hidratação", "Equilíbrio", "Aroma Relaxante"],
+      category: "hidratacao",
+    },
+    {
+      name: "Linha Mãe Terra Toctus",
+      description: "A linha é rica em ativos naturais e orgânicos e conta com formulações compostas por ingredientes naturais. Vegano, natural e orgânico para o cuidado completo dos seus cabelos.",
+      image: new URL("@/assets/products/produto-38.jpeg", import.meta.url).href,
+      benefits: ["Natural", "Orgânico", "Vegano"],
+      category: "tratamentos",
+    },
+    {
+      name: "Shampoo e Condicionador Bioativo Mãe Terra",
+      description: "Ingredientes naturais que promovem saúde e beleza aos fios. Copaíba, coco e patauá com óleos essenciais de lavanda, ylang ylang, alecrim e limão. Fórmula aromática e orgânica.",
+      image: new URL("@/assets/products/produto-39.jpeg", import.meta.url).href,
+      benefits: ["Bioativo", "Óleos Essenciais", "Orgânico"],
+      category: "hidratacao",
+    },
+    {
+      name: "Manteigas Corporais Mãe Terra",
+      description: "Manteiga multifuncional para corpo e pele. Pequi com manteiga de cacau e óleo de abacate. Karité com manteiga de cupuaçu e óleos essenciais. Hidratação natural e intensa.",
+      image: new URL("@/assets/products/produto-40.jpeg", import.meta.url).href,
+      benefits: ["Corpo & Pele", "Natural", "Hidratação Intensa"],
+      category: "hidratacao",
+    },
+    {
+      name: "Shampoo Serenice Aromacqua",
+      description: "Com base de óleos essenciais de lavanda e extrato de camomila, proporciona extrema hidratação aos fios, promove o bem estar, acalma e revigora no lavatório. Ação de limpeza suave e hidratante.",
+      image: new URL("@/assets/products/produto-41.jpeg", import.meta.url).href,
+      benefits: ["Hidratação", "Bem-Estar", "Limpeza Suave"],
+      category: "hidratacao",
+    },
   ];
 
   const filteredProducts =
